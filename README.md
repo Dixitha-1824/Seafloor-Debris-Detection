@@ -1,17 +1,17 @@
 # Seafloor Debris Detection using Integrated ResUNet and Yolov8 Model
 
-## 📌 Overview
+## Overview
 
 This project presents a deep learning-based framework for detecting seafloor debris from underwater images. The proposed approach first restores degraded underwater images using **ResUNet** and then detects marine debris using **YOLOv8**. By enhancing image quality before detection, the system improves the visibility of underwater objects and increases detection accuracy.
 
-## 🎯 Objectives
+## Objectives
 
 * Enhance degraded underwater images using ResUNet.
 * Detect and localize seafloor debris using YOLOv8.
 * Improve detection performance in challenging underwater environments.
 * Support marine pollution monitoring and ocean conservation.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Programming Language:** Python
 * **Deep Learning Framework:** PyTorch
@@ -20,7 +20,7 @@ This project presents a deep learning-based framework for detecting seafloor deb
 * **Image Restoration:** ResUNet
 * **Development Environment:** Jupyter Notebook
 
-## 📂 Dataset
+## Dataset
 
 ### EUVP Dataset
 
@@ -33,7 +33,7 @@ This project presents a deep learning-based framework for detecting seafloor deb
 * Used to train the YOLOv8 object detection model.
 * Contains annotated underwater images with different categories of marine debris.
 
-## 🔄 Methodology
+## Methodology
 
 1. Collect underwater images from the EUVP and TrashCan datasets.
 2. Generate degraded images using:
@@ -47,7 +47,7 @@ This project presents a deep learning-based framework for detecting seafloor deb
 4. Use the restored images as input to the YOLOv8 model.
 5. Detect and localize seafloor debris using bounding boxes.
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ### Image Restoration (ResUNet)
 
@@ -60,7 +60,7 @@ This project presents a deep learning-based framework for detecting seafloor deb
 
 * YOLOv8 Object Detection Model
 
-## ✨ Features
+## Features
 
 * Underwater image enhancement
 * Noise and haze reduction
